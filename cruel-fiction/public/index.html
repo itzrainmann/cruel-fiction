@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cruel Fiction – Lies never sounded this real." />
+  <title>CRUEL FICTION</title>
+
+  <!-- Google Fonts: Bebas Neue + DM Serif Display + DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ NAV ═══════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" id="nav-logo-text">CRUEL FICTION</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#socials">Socials</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════ HERO ══════════════════════════════ -->
+  <section id="home" class="hero">
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-noise"></div>
+    <div class="hero-content">
+      <p class="hero-pre">EST. NOW</p>
+      <h1 class="hero-title" id="heroTitle">CRUEL FICTION</h1>
+      <p class="hero-tagline" id="heroTagline">Lies never sounded this real</p>
+      <a href="#music" class="hero-cta">Listen Now</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ ABOUT ═════════════════════════════ -->
+  <section id="about" class="about">
+    <div class="about-inner">
+      <div class="about-label">
+        <span class="section-label">001 — About</span>
+      </div>
+      <div class="about-content">
+        <h2 class="about-heading">The Story<br /><em>Behind the Sound</em></h2>
+        <div class="about-divider"></div>
+        <p class="about-bio" id="aboutBio">Loading...</p>
+      </div>
+    </div>
+    <div class="about-deco">FICTION</div>
+  </section>
+
+  <!-- ═══════════════════════════════ MUSIC ═════════════════════════════ -->
+  <section id="music" class="music">
+    <div class="music-inner">
+      <span class="section-label light">002 — Music</span>
+      <h2 class="section-heading">Listen</h2>
+      <div class="spotify-wrapper" id="spotifyWrapper">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ GALLERY ═══════════════════════════ -->
+  <section id="gallery" class="gallery">
+    <div class="gallery-inner">
+      <span class="section-label">003 — Gallery</span>
+      <h2 class="section-heading dark">Visual</h2>
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ SOCIALS ═══════════════════════════ -->
+  <section id="socials" class="socials">
+    <div class="socials-inner">
+      <span class="section-label light">004 — Connect</span>
+      <h2 class="section-heading">Follow the Fiction</h2>
+      <div class="socials-grid" id="socialsGrid">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ FOOTER ════════════════════════════ -->
+  <footer class="footer">
+    <p class="footer-name" id="footerName">CRUEL FICTION</p>
+    <p class="footer-copy">&copy; <span id="footerYear"></span> Cruel Fiction. All rights reserved.</p>
+  </footer>
+
+  <!-- Lightbox overlay -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <img src="" alt="" id="lightboxImg" />
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

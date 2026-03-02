@@ -1,0 +1,49 @@
+{
+  "artist": {
+    "name": "CRUEL FICTION",
+    "tagline": "Lies never sounded this real",
+    "bio": "Cruel Fiction is a cinematic alternative project built on tension, texture, and truth buried in sound. Forged in late nights and louder silences, the music pulls from post-punk shadows and modern dark pop ambition — songs that feel like confessions and sound like movies. This is where fiction bleeds.",
+    "logo": "/assets/logo.png",
+    "heroBg": "/assets/hero-bg.jpg"
+  },
+  "socials": [
+    {
+      "platform": "Instagram",
+      "handle": "@thecruelfiction",
+      "url": "https://www.instagram.com/thecruelfiction",
+      "icon": "instagram"
+    },
+    {
+      "platform": "TikTok",
+      "handle": "@cruelfic",
+      "url": "https://www.tiktok.com/@cruelfic",
+      "icon": "tiktok"
+    }
+  ],
+  "music": {
+    "spotifyEmbedUrl": "",
+    "spotifyNote": "Paste your Spotify embed URL here when your account is ready. Example: https://open.spotify.com/embed/artist/YOUR_ARTIST_ID"
+  },
+  "gallery": [
+    {
+      "src": "/assets/gallery/album1.svg",
+      "alt": "Album Art – Cruel Fiction",
+      "caption": "Debut EP"
+    },
+    {
+      "src": "/assets/gallery/album2.svg",
+      "alt": "Single Art – Cruel Fiction",
+      "caption": "Latest Single"
+    },
+    {
+      "src": "/assets/gallery/album3.svg",
+      "alt": "Live – Cruel Fiction",
+      "caption": "Live Session"
+    },
+    {
+      "src": "/assets/gallery/album4.svg",
+      "alt": "Promo – Cruel Fiction",
+      "caption": "Press Shot"
+    }
+  ]
+}
